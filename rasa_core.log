@@ -1,0 +1,64 @@
+2019-08-08 17:48:10,741 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-08 17:48:55,255 [INFO ]  Killing Sanic server now.
+2019-08-08 18:11:26,999 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-08 18:11:38,062 [INFO ]  Killing Sanic server now.
+2019-08-08 18:13:19,037 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-08 18:13:23,755 [ERROR]  The model predicted the custom action 'action_get_weather', but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration via the --endpoints flag. https://rasa.com/docs/rasa/core/actions
+2019-08-08 18:13:23,756 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-08 18:13:36,018 [INFO ]  Killing Sanic server now.
+2019-08-08 18:20:28,637 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-08 18:21:13,651 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-08 18:21:19,865 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "/home/aleksandarstefanovic/.local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/aleksandarstefanovic/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/aleksandarstefanovic/.local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-08-09 10:53:24,511 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 10:53:30,691 [ERROR]  Failed to run custom action 'action_get_weather'. Action server responded with a non 200 status code of 0. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8'
+2019-08-09 10:53:30,691 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 10:55:50,180 [ERROR]  Failed to run custom action 'action_get_weather'. Action server responded with a non 200 status code of 0. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8'
+2019-08-09 10:55:50,180 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 10:58:12,274 [ERROR]  Failed to run custom action 'action_get_weather'. Action server responded with a non 200 status code of 0. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8'
+2019-08-09 10:58:12,274 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:02:14,577 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:02:56,345 [ERROR]  Failed to run custom action 'action_get_weather'. Action server responded with a non 200 status code of 0. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 0, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8'
+2019-08-09 11:02:56,345 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:03:29,190 [ERROR]  Failed to run custom action 'action_get_weather'. Action server responded with a non 200 status code of 0. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 0, message='Attempt to decode JSON with unexpected mimetype: text/plain; charset=utf-8'
+2019-08-09 11:03:29,190 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:04:05,730 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:04:26,527 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:05:00,950 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:06:27,677 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:06:38,101 [INFO ]  Killing Sanic server now.
+2019-08-09 11:09:16,512 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:09:20,722 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:09:35,579 [INFO ]  Killing Sanic server now.
+2019-08-09 11:09:39,041 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:09:42,253 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:09:49,000 [INFO ]  Killing Sanic server now.
+2019-08-09 11:10:25,902 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:11:17,097 [INFO ]  Killing Sanic server now.
+2019-08-09 11:11:46,157 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:33:26,617 [INFO ]  Killing Sanic server now.
+2019-08-09 11:33:30,166 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:33:33,372 [ERROR]  Failed to run custom action 'action_get_weather'. Couldn't connect to the server at 'http://localhost:8000/webhook'. Is the server running? Error: Cannot connect to host localhost:8000 ssl:None [Connection refused]
+2019-08-09 11:33:33,373 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:33:41,600 [INFO ]  Killing Sanic server now.
+2019-08-09 11:33:44,855 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:34:16,797 [INFO ]  Killing Sanic server now.
+2019-08-09 11:34:52,055 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:34:55,689 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:35:15,640 [INFO ]  Killing Sanic server now.
+2019-08-09 11:35:18,966 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:35:21,877 [ERROR]  Encountered an exception while running action 'action_get_weather'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-09 11:35:52,300 [INFO ]  Killing Sanic server now.
+2019-08-09 11:36:05,486 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:36:16,404 [INFO ]  Killing Sanic server now.
+2019-08-09 11:38:12,704 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:38:31,024 [INFO ]  Killing Sanic server now.
+2019-08-09 11:39:11,343 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-09 11:39:25,956 [INFO ]  Killing Sanic server now.

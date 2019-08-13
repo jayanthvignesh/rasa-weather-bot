@@ -1,0 +1,17 @@
+2019-08-08 17:53:41,216 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-08 17:53:42,770 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "uvloop/loop.pyx", line 1112, in uvloop.loop.Loop._create_server
+  File "uvloop/handles/streamserver.pyx", line 58, in uvloop.loop.UVStreamServer.listen
+  File "uvloop/handles/streamserver.pyx", line 95, in uvloop.loop.UVStreamServer._fatal_error
+OSError: [Errno 98] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aleksandarstefanovic/.local/lib/python3.6/site-packages/sanic/server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1684, in create_server
+  File "uvloop/loop.pyx", line 1116, in uvloop.loop.Loop._create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
